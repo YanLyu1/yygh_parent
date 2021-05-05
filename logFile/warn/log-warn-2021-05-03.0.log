@@ -1,0 +1,18 @@
+2021-05-03 23:36:14.342 [http-nio-8201-exec-1] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2021-05-03 23:36:20.584 [http-nio-8201-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.NullPointerException]
+2021-05-03 23:44:11.899 [http-nio-8201-exec-6] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_01' for key 'uk_hoscode'
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status,   is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,   ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_01' for key 'uk_hoscode'
+; Duplicate entry '1000_01' for key 'uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_01' for key 'uk_hoscode']
+2021-05-03 23:44:40.744 [http-nio-8201-exec-10] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_01' for key 'uk_hoscode'
+### The error may exist in com/atguigu/yygh/hosp/mapper/HospitalSetMapper.java (best guess)
+### The error may involve com.atguigu.yygh.hosp.mapper.HospitalSetMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO hospital_set  ( hosname, hoscode, api_url, sign_key, contacts_name, contacts_phone, status,   is_deleted )  VALUES  ( ?, ?, ?, ?, ?, ?, ?,   ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_01' for key 'uk_hoscode'
+; Duplicate entry '1000_01' for key 'uk_hoscode'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1000_01' for key 'uk_hoscode']

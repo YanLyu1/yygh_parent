@@ -1,46 +1,65 @@
-2021-05-03 17:08:51.233 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication on LVdeMacBook-Pro.local with PID 79922 (/Users/lvyan/Documents/yygh_parent/service/service_hosp/target/classes started by lvyan in /Users/lvyan/Documents/yygh_parent)
-2021-05-03 17:08:51.236 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
-2021-05-03 17:08:51.510 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-05-03 17:08:51.512 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-05-03 17:08:56.199 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-05-03 17:08:57.100 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
-2021-05-03 17:08:57.117 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
-2021-05-03 17:08:57.118 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-05-03 17:08:57.119 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-05-03 17:08:57.327 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-05-03 17:08:57.328 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5816 ms
-2021-05-03 17:08:59.777 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-05-03 17:09:00.022 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-03 17:09:00.136 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-05-03 17:09:00.815 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-05-03 17:09:00.853 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
-2021-05-03 17:09:00.967 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-05-03 17:09:01.511 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: lockHospitalSetUsingPUT_1
-2021-05-03 17:09:01.683 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-05-03 17:09:01.717 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
-2021-05-03 17:09:01.812 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
-2021-05-03 17:09:01.820 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 12.011 seconds (JVM running for 14.488)
-2021-05-03 17:11:57.997 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2021-05-03 17:13:29.055 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication on LVdeMacBook-Pro.local with PID 82425 (/Users/lvyan/Documents/yygh_parent/service/service_hosp/target/classes started by lvyan in /Users/lvyan/Documents/yygh_parent)
-2021-05-03 17:13:29.059 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
-2021-05-03 17:13:29.425 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-05-03 17:13:29.426 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2021-05-03 17:13:31.032 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-05-03 17:13:31.551 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
-2021-05-03 17:13:31.564 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
-2021-05-03 17:13:31.565 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2021-05-03 17:13:31.573 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-05-03 17:13:31.694 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2021-05-03 17:13:31.696 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2270 ms
-2021-05-03 17:13:32.737 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-2021-05-03 17:13:32.858 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2021-05-03 17:13:32.897 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2021-05-03 17:13:33.077 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2021-05-03 17:13:33.092 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
-2021-05-03 17:13:33.123 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-05-03 17:13:33.312 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: lockHospitalSetUsingPUT_1
-2021-05-03 17:13:33.373 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2021-05-03 17:13:33.385 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
-2021-05-03 17:13:33.419 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
-2021-05-03 17:13:33.424 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 5.171 seconds (JVM running for 6.191)
-2021-05-03 17:13:57.368 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 13:52:37.448 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 13:52:37.500 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-05-04 13:52:37.583 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-05-04 13:52:50.039 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication on LVdeMacBook-Pro.local with PID 67435 (/Users/lvyan/Documents/yygh_parent/service/service_hosp/target/classes started by lvyan in /Users/lvyan/Documents/yygh_parent)
+2021-05-04 13:52:50.047 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-05-04 13:52:50.194 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-04 13:52:50.195 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-04 13:52:52.590 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 13:52:52.935 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-05-04 13:52:52.959 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-05-04 13:52:52.962 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-04 13:52:52.963 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-05-04 13:52:53.080 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-04 13:52:53.080 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2885 ms
+2021-05-04 13:52:54.342 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-04 13:52:54.481 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 13:52:54.528 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-04 13:52:54.742 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-04 13:52:54.759 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-05-04 13:52:54.822 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-04 13:52:55.014 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: lockHospitalSetUsingPUT_1
+2021-05-04 13:52:55.067 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-04 13:52:55.079 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-05-04 13:52:55.113 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-05-04 13:52:55.117 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 6.067 seconds (JVM running for 7.97)
+2021-05-04 13:53:03.055 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 13:53:03.056 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-04 13:53:03.065 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2021-05-04 13:53:47.460 [http-nio-8201-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-04 13:53:48.661 [http-nio-8201-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-04 14:35:03.275 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 14:35:03.318 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-05-04 14:35:03.342 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2021-05-04 20:40:28.046 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Starting ServiceHospApplication on LVdeMacBook-Pro.local with PID 40468 (/Users/lvyan/Documents/yygh_parent/service/service_hosp/target/classes started by lvyan in /Users/lvyan/Documents/yygh_parent)
+2021-05-04 20:40:28.050 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - The following profiles are active: dev
+2021-05-04 20:40:28.363 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-04 20:40:28.364 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-04 20:40:31.964 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-04 20:40:31.967 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-05-04 20:40:32.074 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+2021-05-04 20:40:33.214 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-04 20:40:34.110 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8201 (http)
+2021-05-04 20:40:34.135 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8201"]
+2021-05-04 20:40:34.142 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-04 20:40:34.143 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-05-04 20:40:34.332 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-04 20:40:34.332 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5967 ms
+2021-05-04 20:40:36.556 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-04 20:40:36.892 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 20:40:37.904 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-05-04 20:40:37.937 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 2 custom documentation plugin(s)
+2021-05-04 20:40:38.020 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-04 20:40:38.316 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: lockHospitalSetUsingPUT_1
+2021-05-04 20:40:38.423 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-05-04 20:40:38.438 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8201"]
+2021-05-04 20:40:38.552 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8201 (http) with context path ''
+2021-05-04 20:40:38.559 [restartedMain] INFO  com.atguigu.yygh.hosp.ServiceHospApplication - Started ServiceHospApplication in 12.144 seconds (JVM running for 14.478)
+2021-05-04 20:40:55.137 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 20:40:55.141 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-04 20:40:55.179 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 37 ms
+2021-05-04 20:40:55.871 [http-nio-8201-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2021-05-04 20:40:56.698 [http-nio-8201-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2021-05-04 20:42:30.239 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 20:42:30.337 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2021-05-04 20:42:30.371 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

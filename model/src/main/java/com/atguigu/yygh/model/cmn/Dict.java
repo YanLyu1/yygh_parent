@@ -16,7 +16,7 @@ import java.util.Map;
  * Dict
  * </p>
  *
- * @author qy
+ * @author yan
  */
 @Data
 @ApiModel(description = "数据字典")
