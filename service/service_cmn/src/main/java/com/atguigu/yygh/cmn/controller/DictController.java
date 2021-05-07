@@ -20,6 +20,15 @@ public class DictController {
     @Autowired
     DictService dictService;
 
+    //查询dictCode获取下级节点
+    @ApiOperation(value = "查询dictCode获取下级节点")
+    @GetMapping("findByDictCode/{dictCode}")
+    public Result findByDictCode(@PathVariable String dictCode) {
+        List<Dict> list = dictService.findByDictCode(dictCode);
+        return Result.ok(list);
+    }
+
+
     //导入数据字典
     @PostMapping("importData")
     public Result importDict(MultipartFile file) {
